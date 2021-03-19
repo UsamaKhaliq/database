@@ -1,0 +1,17 @@
+img{
+  height: 200px;
+  width: 268px;
+}
+#col-md-3{
+  float: left;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 280px;
+  padding: 5px;
+}
